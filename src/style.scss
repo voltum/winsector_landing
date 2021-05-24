@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{margin: 0; padding: 0}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FFF;
+    font-family: 'Inter', sans-serif;
+    color: #333441;
+    overflow-x: hidden;
+}
+.root{
+    overflow: hidden;
+}
+h1,h2,h3{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    line-height: 1em;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 60px;
+    font-weight: 500;
+}
+h2.step{
+    background: -webkit-linear-gradient(0, #F13F95, #07A1FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    
+    &:after {
+        content: '';
+        height: 70px;
+        display: block;
+        border-left: 1px solid #CFCFCF;
+        margin-top: 10px;
+    }
+}
+h3{
+    font-size: 40px;
+    background: -webkit-linear-gradient(0, #F13F95, #07A1FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+a{
+    color: #F13F95;
+}
+p{
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.font-light{
+    font-weight: 300;
+}
+.font-regular{
+    font-weight: 500;
+}
+img{
+    max-width: 100%;
+}
+ol{
+    margin: 35px 0;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 40px;
+}
+ol>li{
+    counter-increment: custom;
+    margin: 0 0 1.5rem 0;
+    position: relative;
+
+    &:before{
+        content: counter(custom) " ";  
+        font-size: 60px;
+        font-family: 'Bebas Neue', cursive;
+        position: absolute;
+        --size: 32px;
+        left: calc(-1 * var(--size) - 10px);
+        line-height: var(--size);
+        width: var(--size);
+        height: var(--size);
+        top: 10px;
+        text-align: center;
+    }
+    &:first-child {
+        counter-reset: custom;
+    }
+    p{
+        padding-top: 0;
+        padding-left: 14px;
+        border-left: 1px solid #CFCFCF;
+    }
+}
+.container{
+    margin: auto;
+    max-width: 1550px;
+    padding: 0 11px;
+    box-sizing: border-box;
+}
+
+.Header {
+    padding: 25px 0;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        ul.nav_anchors{
+            display: flex;
+            gap: 40px;
+            // list-style-type: "💠";
+            
+            li.nav_anchor{
+                font-weight: bold;
+                font-size: 12px;
+                text-transform: uppercase;
+                padding-left: 10px;
+
+                a{
+                    color: #333441;
+                    text-decoration: none;
+                }
+                span.nav_separator {
+                    padding: 1rem;
+                    color: #c2c2c2;
+                }
+                .head_btn{
+                    background-image: url(../src/img/header_btn.png);
+                    padding: 15px 50px 15px 31px;
+                    background-color: transparent;
+                    outline: none;
+                    border: 0;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    white-space: nowrap;
+                }
+            }
+            li.nav_tel{
+                font-size: 15px;
+                line-height: 15px;
+            }
+        }
+    }
+}
+
+/*SECTIONS*/
+.contentbox{
+    color: white;
+    padding: 60px 44px;
+    box-sizing: border-box;
+
+    .caption{
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .socs{
+        margin-top: 65px;
+        a{
+            margin-right: 9px;
+            transition: 0.1s;
+            display: inline-block;
+
+            &:hover{
+                opacity: 0.3;
+            }
+        }
+    }
+}
+.sec{
+    min-height: 200px;
+    margin-top: 150px;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+
+    .quoteblock{
+        margin-top: 35px;
+        padding: 25px 64px 43px 75px;
+        background-color: #F5F7F8;
+    }
+    &.sec_full{
+        margin: auto;
+        max-width: 2100px;
+        background-position: right;
+        background-repeat: no-repeat;
+
+        .contentbox{
+            width: 500px;
+            min-height: 400px;
+            background: url(img/contentbox_bg.jpg) no-repeat;
+            background-size: cover;
+        }
+    }
+    &.sec_1{
+        margin: 0 auto;
+        height: 819px;
+        background-image: url(img/sec1bg.jpg);
+    
+        .container{
+            display: flex;
+            align-items: center;
+            height: 100%;
+    
+        }
+    }
+    &.sec_7{
+        height: 819px;
+        background-image: url(img/sec7bg.png);
+        display: flex;
+        align-items: center;
+        margin-top: 150px;
+        padding: 0;
+        
+        .contentbox{
+            width: 50%;
+            height: 120%;
+            position: absolute;
+        }
+        .sec_full_content{
+            width: 100%;
+            z-index: 2;
+            color: white;
+            padding-right: 44%;
+            
+            & p{
+                font-size: 19px;
+            }
+        }
+    }
+}
+
+.sec_content{
+    display: grid;
+    gap: 47px;
+    grid-template-columns: 1.1fr 1fr;
+}
+.sec_right{
+
+    &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 534px;
+        height: 216px;
+        right: -500px;
+        top: 0; 
+        background-image: url(../src/img/sec/sec_mask.png);
+    }
+    &.sec_steps{     
+        grid-template-columns: 1.2fr 1fr;
+    }
+}
+.sec_left{
+    padding-left: 55px;
+
+    &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 534px;
+        height: 216px;
+        left: -500px;
+        top: 0; 
+        background-image: url(../src/img/sec/sec_mask.png);
+    }
+    &.sec_steps{     
+        grid-template-columns: 1fr 1.2fr;
+    }
+}
+
+
+
+/*OVERRIDES*/
+.fa-li{
+    font-size: 15px;
+    left: -10px;
+}
+.fa-gradient {
+    color: #F13F95;
+    display: block;
+    background: -webkit-linear-gradient(#07A1FA, #F13F95);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
