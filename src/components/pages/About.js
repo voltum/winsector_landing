@@ -26,7 +26,7 @@ function About() {
                 <div className="sec_content sec_left">
                     <div>
                         <h2>About us</h2>
-                        <p>WinSector N.V. is a fresh new company with a stack of experienced talent driving the show. We know how bright the future of online gambling is and are committed to making a unique mark. The iGaming world is fiercely competitive, and it requires something special to stand out amidst so many great options.</p>
+                        <p>""COMPANY"" is a fresh new company with a stack of experienced talent driving the show. We know how bright the future of online gambling is and are committed to making a unique mark. The iGaming world is fiercely competitive, and it requires something special to stand out amidst so many great options.</p>
                         <div className="quoteblock">
                             <p>
                             RajBet Casino - a new online casino in which any visitor can find a game of chance to their liking. Fun and colorful themed slots, all kinds of poker, lotto - all of these games are available at our new RajBet Casino online casino. 
@@ -50,7 +50,7 @@ function About() {
                         <p>
                         For the development of online casino, the client chose our internal software platform, and our specialists coped with the task perfectly, having developed in just three months absolutely all the details of this online casino: from the sober but in the colorful design at the same time, for the integration of payment systems and the mobile version of the casino.
                         <br/><br/>
-                        This is where WinSector N.V. steps in. Our team of professionals aren’t just iGaming enthusiasts but are dedicated to providing the finest online gambling entertainment. To this end, we partner with the very best providers and affiliates to create virtual casino experiences that are second to none.
+                        This is where ""COMPANY"" steps in. Our team of professionals aren’t just iGaming enthusiasts but are dedicated to providing the finest online gambling entertainment. To this end, we partner with the very best providers and affiliates to create virtual casino experiences that are second to none.
                         <br/><br/>
                         For our casino, we select only the most exciting games from world famous providers such as Evolution, Ezugi, Endorphina, Betsoft and Net Entertainment.
                         </p>
