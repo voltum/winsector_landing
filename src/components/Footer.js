@@ -82,7 +82,7 @@ function Footer() {
                 
                 <hr></hr>
                 <div className="copyright">
-                    © Win Sector N.V. 2021
+                    © ""COMPANY"" 2021
                 </div>
             </div>
         </div>
