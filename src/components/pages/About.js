@@ -14,7 +14,7 @@ function About() {
             <div id="sec_1" className="sec sec_1 sec_full">
                 <div className="container">
                     <div className="contentbox">
-                        <h1 className="heading">Win Sector N.V.</h1>
+                        <h1 className="heading">""COMPANY""</h1>
                         <p className="caption">
                             A unique solution for all types of gambling - casino, sports betting, poker and lotteries!
                         </p>
@@ -112,9 +112,9 @@ function About() {
                             <div className="content">
                                 <h1 className="heading">Best Casino Games</h1>
                                 <p className="caption font-light">
-                                Win Sector NV Casinos offers a full set of games, over 3000 to be more precise. With the launch of new slots every month, you are sure to find the best games for you.
+                                ""COMPANY"" Casinos offers a full set of games, over 3000 to be more precise. With the launch of new slots every month, you are sure to find the best games for you.
                                 <br/><br/>
-                                Win Sector N.V. provides a fantastic instant play lobby right in your browser and is very easy to use with great promotional information contained therein, so that you never miss a good deal or a new game. If you prefer to download the casino, you also have this option. It's 100% safe to do and completely free.
+                                ""COMPANY"" provides a fantastic instant play lobby right in your browser and is very easy to use with great promotional information contained therein, so that you never miss a good deal or a new game. If you prefer to download the casino, you also have this option. It's 100% safe to do and completely free.
                                 <br/><br/>
                                 If you lead a hectic life and don't have the time to sit and play on your computer, why not give their site and casino a try right from your mobile device. The software is compatible with tablets and mobile phones giving you instant access anywhere you have a signal.
                                 <br/><br/>
